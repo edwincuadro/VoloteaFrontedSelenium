@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.volotea.qa.runners.Passenger.OnePassenger
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.882 s - in com.volotea.qa.runners.Passenger.OnePassenger
