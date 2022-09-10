@@ -1,0 +1,6 @@
+com\volotea\qa\runners\Passenger\GroupReservation.class
+com\volotea\qa\runners\Passenger\OnePassenger.class
+com\volotea\qa\steps\Origin\CitiesSteps.class
+com\volotea\qa\steps\Passenger\GroupReservationSteps.class
+com\volotea\qa\steps\Passenger\OnePassengerSteps.class
+com\volotea\qa\runners\Origin\CitiesRunner.class

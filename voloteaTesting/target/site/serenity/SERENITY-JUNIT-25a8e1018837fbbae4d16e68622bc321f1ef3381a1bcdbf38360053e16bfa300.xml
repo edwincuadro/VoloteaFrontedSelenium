@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Validate that the origin field can searching by cities name" skipped="0" tests="1" time="28.16" timestamp="2022-09-10 05:13:14"><testcase name="Check that the origin field is able to search by cities name"><failure message="&#10;Expected: an element that is visible&#10;     but: no matching element found by xpath: (//*[@class='v7-route__info-from'])[1]" type="java.lang.AssertionError">
+Expected: an element that is visible
+     but: no matching element found by xpath: (//*[@class='v7-route__info-from'])[1]</failure><system-err>
+Expected: an element that is visible
+     but: no matching element found by xpath: (//*[@class='v7-route__info-from'])[1]&#13;
+com.volotea.qa.questions.CityResult.answeredBy(CityResult.java:14)&#13;
+com.volotea.qa.questions.CityResult.answeredBy(CityResult.java:11)&#13;
+com.volotea.qa.steps.Origin.SearchByCitySteps.theOriginFieldMustDoesSearching(SearchByCitySteps.java:29)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>
