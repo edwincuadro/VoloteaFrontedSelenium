@@ -31,13 +31,13 @@ public class OnePassengerSteps {
     }
     @Given("^user on the site$")
     public void userSelectThePassengerField() {
-        OnStage.theActorInTheSpotlight().wasAbleTo(OpenBrowser.browserGetUp());
-        OnStage.theActorInTheSpotlight().wasAbleTo(AcceptCookies.cookies());
+        OnStage.theActorInTheSpotlight().attemptsTo(OpenBrowser.browserGetUp());
+        OnStage.theActorInTheSpotlight().attemptsTo(AcceptCookies.cookies());
     }
 
     @When("^user click on passenger field$")
     public void showUpTheForm() {
-        OnStage.theActorInTheSpotlight().wasAbleTo(SelectPassenger.clickPassenger());
+        OnStage.theActorInTheSpotlight().attemptsTo(SelectPassenger.clickPassenger());
     }
 
     @Then("^adult passenger field must be (.*)$")
